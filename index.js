@@ -11,6 +11,7 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: Hard-coding 'cat' below will not work
+  var animal = 'cat';
   return animal
 }
 
@@ -27,4 +28,8 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
+<<<<<<< HEAD
 var theFunk = funkyFunction ()
+=======
+var theFunk = "FUNKY!"
+>>>>>>> 3ce4e0d43fddd1972b7909319b614042553b92a7
